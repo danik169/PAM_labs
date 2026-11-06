@@ -1,0 +1,857 @@
+{
+  "homePage": {
+    "header": {
+      "greeting": "Hi, Kristin",
+      "subtitle": "Let’s start learning",
+      "avatarUrl": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=160&q=80",
+      "notification": {
+        "hasUnread": true,
+        "iconUrl": "https://api.iconify.design/mdi/bell-outline.svg?color=%23FFFFFF&width=32"
+      }
+    },
+    "learnedToday": {
+      "title": "Learned today",
+      "learnedMinutes": 46,
+      "goalMinutes": 60,
+      "formatted": "46min / 60min",
+      "progress": 0.7667
+    },
+    "myCourses": {
+      "title": "My courses",
+      "actionLabel": "My courses"
+    },
+    "learningPrompt": {
+      "title": "What do you want to learn today?",
+      "actionLabel": "Get Started",
+      "imageUrl": "https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=900&q=85"
+    },
+    "learningPlan": {
+      "title": "Learning Plan",
+      "items": [
+        {
+          "id": "packaging-design",
+          "title": "Packaging Design",
+          "completed": 40,
+          "total": 48,
+          "progress": 0.8333,
+          "progressIconUrl": "https://api.iconify.design/mdi/progress-check.svg?color=%237E858C&width=28"
+        },
+        {
+          "id": "product-design",
+          "title": "Product Design",
+          "completed": 6,
+          "total": 24,
+          "progress": 0.25,
+          "progressIconUrl": "https://api.iconify.design/mdi/progress-clock.svg?color=%237E858C&width=28"
+        }
+      ]
+    },
+    "meetup": {
+      "title": "Meetup",
+      "subtitle": "Off-line exchange of learning experience",
+      "imageUrl": "https://images.unsplash.com/photo-1529390079861-591de354faf5?auto=format&fit=crop&w=900&q=85"
+    }
+  },
+  "courseOverviewPage": {
+    "navigation": {
+      "title": "Course Overview",
+      "backIconUrl": "https://api.iconify.design/mdi/arrow-left.svg?color=%23101012&width=32"
+    },
+    "course": {
+      "id": "react-front-to-back",
+      "title": "React Front To back",
+      "duration": "6h 30min",
+      "durationMinutes": 390,
+      "lessonCount": 7,
+      "rating": 4.9,
+      "hero": {
+        "label": "SPOKEN ENGLISH",
+        "imageUrl": "https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=1000&q=85",
+        "playIconUrl": "https://api.iconify.design/mdi/play.svg?color=%23FF6F00&width=38",
+        "videoCount": 75,
+        "classCount": 35
+      },
+      "tabs": {
+        "selected": "lessons",
+        "items": [
+          {
+            "id": "lessons",
+            "label": "Lessons",
+            "selected": true
+          },
+          {
+            "id": "description",
+            "label": "Description",
+            "selected": false
+          }
+        ]
+      },
+      "lessons": [
+        {
+          "id": "lesson-1",
+          "title": "Introduction to React",
+          "duration": "04:28",
+          "durationSeconds": 268,
+          "completed": false,
+          "locked": false,
+          "playIconUrl": "https://api.iconify.design/mdi/play-circle-outline.svg?color=%23FF6F00&width=44",
+          "arrowIconUrl": "https://api.iconify.design/mdi/chevron-right.svg?color=%23FF6F00&width=28"
+        },
+        {
+          "id": "lesson-2",
+          "title": "Understanding React",
+          "duration": "06:12",
+          "durationSeconds": 372,
+          "completed": false,
+          "locked": false,
+          "playIconUrl": "https://api.iconify.design/mdi/play-circle-outline.svg?color=%23FF6F00&width=44",
+          "arrowIconUrl": "https://api.iconify.design/mdi/chevron-right.svg?color=%23FF6F00&width=28"
+        },
+        {
+          "id": "lesson-3",
+          "title": "Create first React project",
+          "duration": "43:58",
+          "durationSeconds": 2638,
+          "completed": false,
+          "locked": false,
+          "playIconUrl": "https://api.iconify.design/mdi/play-circle-outline.svg?color=%23FF6F00&width=44",
+          "arrowIconUrl": "https://api.iconify.design/mdi/chevron-right.svg?color=%23FF6F00&width=28"
+        },
+        {
+          "id": "lesson-4",
+          "title": "Build React",
+          "duration": "26:18",
+          "durationSeconds": 1578,
+          "completed": false,
+          "locked": true,
+          "playIconUrl": "https://api.iconify.design/mdi/play-circle-outline.svg?color=%23FFE0CC&width=44",
+          "arrowIconUrl": "https://api.iconify.design/mdi/chevron-right.svg?color=%23FFE0CC&width=28"
+        },
+        {
+          "id": "lesson-5",
+          "title": "Components and props",
+          "duration": "18:40",
+          "durationSeconds": 1120,
+          "completed": false,
+          "locked": true,
+          "playIconUrl": "https://api.iconify.design/mdi/play-circle-outline.svg?color=%23FFE0CC&width=44",
+          "arrowIconUrl": "https://api.iconify.design/mdi/chevron-right.svg?color=%23FFE0CC&width=28"
+        },
+        {
+          "id": "lesson-6",
+          "title": "State and hooks",
+          "duration": "31:05",
+          "durationSeconds": 1865,
+          "completed": false,
+          "locked": true,
+          "playIconUrl": "https://api.iconify.design/mdi/play-circle-outline.svg?color=%23FFE0CC&width=44",
+          "arrowIconUrl": "https://api.iconify.design/mdi/chevron-right.svg?color=%23FFE0CC&width=28"
+        },
+        {
+          "id": "lesson-7",
+          "title": "Deploy your app",
+          "duration": "12:45",
+          "durationSeconds": 765,
+          "completed": false,
+          "locked": true,
+          "playIconUrl": "https://api.iconify.design/mdi/play-circle-outline.svg?color=%23FFE0CC&width=44",
+          "arrowIconUrl": "https://api.iconify.design/mdi/chevron-right.svg?color=%23FFE0CC&width=28"
+        }
+      ],
+      "description": {
+        "text": "Learn React from the ground up: components, props, state, hooks and how to connect your front end to a back end. Each lesson is a short video followed by practical exercises."
+      },
+      "category": "Programming",
+      "level": "Intermediate",
+      "accent": "#6B4CE8",
+      "icon": "code"
+    },
+    "actions": {
+      "price": {
+        "label": "Free",
+        "amount": 0,
+        "currency": "USD"
+      },
+      "enroll": {
+        "label": "Enroll Now",
+        "enabled": true
+      }
+    },
+    "uiIcons": {
+      "durationIconUrl": "https://api.iconify.design/mdi/clock-outline.svg?color=%23898C93&width=20",
+      "lessonsIconUrl": "https://api.iconify.design/mdi/book-open-outline.svg?color=%23898C93&width=20",
+      "ratingIconUrl": "https://api.iconify.design/mdi/star.svg?color=%23FFB300&width=22"
+    }
+  },
+  "coursesPage": {
+    "title": "My courses",
+    "searchHint": "Search courses",
+    "items": [
+      {
+        "id": "flutter-mobile-apps",
+        "title": "Flutter Mobile Apps",
+        "category": "Programming",
+        "level": "Intermediate",
+        "duration": "1h 58min",
+        "durationMinutes": 118,
+        "lessonCount": 5,
+        "rating": 4.8,
+        "accent": "#02569B",
+        "icon": "code",
+        "price": {
+          "label": "$29",
+          "amount": 29,
+          "currency": "USD"
+        },
+        "hero": {
+          "label": "FLUTTER MOBILE APPS",
+          "videoCount": 60,
+          "classCount": 25
+        },
+        "description": {
+          "text": "Build cross-platform mobile apps with Flutter and Dart: widgets, navigation, state management with Cubit and asynchronous data loading."
+        },
+        "lessons": [
+          {
+            "id": "flutter-mobile-apps-lesson-1",
+            "title": "Dart language basics",
+            "duration": "14:20",
+            "durationSeconds": 860,
+            "completed": false,
+            "locked": false
+          },
+          {
+            "id": "flutter-mobile-apps-lesson-2",
+            "title": "Widgets and layouts",
+            "duration": "22:05",
+            "durationSeconds": 1325,
+            "completed": false,
+            "locked": false
+          },
+          {
+            "id": "flutter-mobile-apps-lesson-3",
+            "title": "Navigation and routes",
+            "duration": "17:40",
+            "durationSeconds": 1060,
+            "completed": false,
+            "locked": false
+          },
+          {
+            "id": "flutter-mobile-apps-lesson-4",
+            "title": "State management with Cubit",
+            "duration": "35:10",
+            "durationSeconds": 2110,
+            "completed": false,
+            "locked": true
+          },
+          {
+            "id": "flutter-mobile-apps-lesson-5",
+            "title": "Async programming and Futures",
+            "duration": "28:30",
+            "durationSeconds": 1710,
+            "completed": false,
+            "locked": true
+          }
+        ]
+      },
+      {
+        "id": "python-for-data",
+        "title": "Python for Data Analysis",
+        "category": "Data",
+        "level": "Beginner",
+        "duration": "1h 38min",
+        "durationMinutes": 98,
+        "lessonCount": 4,
+        "rating": 4.7,
+        "accent": "#2E7D32",
+        "icon": "data",
+        "price": {
+          "label": "Free",
+          "amount": 0,
+          "currency": "USD"
+        },
+        "hero": {
+          "label": "PYTHON FOR DATA ANALYSIS",
+          "videoCount": 48,
+          "classCount": 20
+        },
+        "description": {
+          "text": "Learn Python, pandas and basic visualisation to clean, transform and analyse real-world datasets."
+        },
+        "lessons": [
+          {
+            "id": "python-for-data-lesson-1",
+            "title": "Python in 30 minutes",
+            "duration": "30:00",
+            "durationSeconds": 1800,
+            "completed": true,
+            "locked": false
+          },
+          {
+            "id": "python-for-data-lesson-2",
+            "title": "Working with pandas",
+            "duration": "26:45",
+            "durationSeconds": 1605,
+            "completed": false,
+            "locked": false
+          },
+          {
+            "id": "python-for-data-lesson-3",
+            "title": "Cleaning messy data",
+            "duration": "19:15",
+            "durationSeconds": 1155,
+            "completed": false,
+            "locked": false
+          },
+          {
+            "id": "python-for-data-lesson-4",
+            "title": "Charts with matplotlib",
+            "duration": "21:50",
+            "durationSeconds": 1310,
+            "completed": false,
+            "locked": true
+          }
+        ]
+      },
+      {
+        "id": "sql-server-essentials",
+        "title": "SQL Server Essentials",
+        "category": "Data",
+        "level": "Beginner",
+        "duration": "1h 52min",
+        "durationMinutes": 112,
+        "lessonCount": 5,
+        "rating": 4.8,
+        "accent": "#C62828",
+        "icon": "data",
+        "price": {
+          "label": "$19",
+          "amount": 19,
+          "currency": "USD"
+        },
+        "hero": {
+          "label": "SQL SERVER ESSENTIALS",
+          "videoCount": 60,
+          "classCount": 25
+        },
+        "description": {
+          "text": "From SELECT to stored procedures: write reliable T-SQL queries, joins, views and procedures on SQL Server."
+        },
+        "lessons": [
+          {
+            "id": "sql-server-essentials-lesson-1",
+            "title": "SELECT, WHERE and ORDER BY",
+            "duration": "16:10",
+            "durationSeconds": 970,
+            "completed": false,
+            "locked": false
+          },
+          {
+            "id": "sql-server-essentials-lesson-2",
+            "title": "Joins explained",
+            "duration": "24:30",
+            "durationSeconds": 1470,
+            "completed": false,
+            "locked": false
+          },
+          {
+            "id": "sql-server-essentials-lesson-3",
+            "title": "Views and indexes",
+            "duration": "20:05",
+            "durationSeconds": 1205,
+            "completed": false,
+            "locked": false
+          },
+          {
+            "id": "sql-server-essentials-lesson-4",
+            "title": "Stored procedures",
+            "duration": "27:40",
+            "durationSeconds": 1660,
+            "completed": false,
+            "locked": true
+          },
+          {
+            "id": "sql-server-essentials-lesson-5",
+            "title": "Query performance basics",
+            "duration": "23:15",
+            "durationSeconds": 1395,
+            "completed": false,
+            "locked": true
+          }
+        ]
+      },
+      {
+        "id": "power-bi-dashboards",
+        "title": "Power BI Dashboards",
+        "category": "Data",
+        "level": "Intermediate",
+        "duration": "1h 35min",
+        "durationMinutes": 95,
+        "lessonCount": 4,
+        "rating": 4.9,
+        "accent": "#F2A900",
+        "icon": "data",
+        "price": {
+          "label": "$24",
+          "amount": 24,
+          "currency": "USD"
+        },
+        "hero": {
+          "label": "POWER BI DASHBOARDS",
+          "videoCount": 48,
+          "classCount": 20
+        },
+        "description": {
+          "text": "Model data, write DAX measures and publish interactive dashboards that tell a clear story."
+        },
+        "lessons": [
+          {
+            "id": "power-bi-dashboards-lesson-1",
+            "title": "Data modeling basics",
+            "duration": "21:00",
+            "durationSeconds": 1260,
+            "completed": false,
+            "locked": false
+          },
+          {
+            "id": "power-bi-dashboards-lesson-2",
+            "title": "Your first DAX measures",
+            "duration": "29:20",
+            "durationSeconds": 1760,
+            "completed": false,
+            "locked": false
+          },
+          {
+            "id": "power-bi-dashboards-lesson-3",
+            "title": "Time intelligence",
+            "duration": "25:35",
+            "durationSeconds": 1535,
+            "completed": false,
+            "locked": false
+          },
+          {
+            "id": "power-bi-dashboards-lesson-4",
+            "title": "Designing readable reports",
+            "duration": "18:45",
+            "durationSeconds": 1125,
+            "completed": false,
+            "locked": true
+          }
+        ]
+      },
+      {
+        "id": "packaging-design",
+        "title": "Packaging Design",
+        "category": "Design",
+        "level": "Intermediate",
+        "duration": "1h 6min",
+        "durationMinutes": 66,
+        "lessonCount": 4,
+        "rating": 4.6,
+        "accent": "#EE7B30",
+        "icon": "design",
+        "price": {
+          "label": "Free",
+          "amount": 0,
+          "currency": "USD"
+        },
+        "hero": {
+          "label": "PACKAGING DESIGN",
+          "videoCount": 48,
+          "classCount": 20
+        },
+        "description": {
+          "text": "Design packaging that sells: structure, typography, materials and print-ready artwork."
+        },
+        "lessons": [
+          {
+            "id": "packaging-design-lesson-1",
+            "title": "Packaging fundamentals",
+            "duration": "12:30",
+            "durationSeconds": 750,
+            "completed": true,
+            "locked": false
+          },
+          {
+            "id": "packaging-design-lesson-2",
+            "title": "Dielines and structure",
+            "duration": "20:10",
+            "durationSeconds": 1210,
+            "completed": true,
+            "locked": false
+          },
+          {
+            "id": "packaging-design-lesson-3",
+            "title": "Typography on products",
+            "duration": "15:25",
+            "durationSeconds": 925,
+            "completed": false,
+            "locked": false
+          },
+          {
+            "id": "packaging-design-lesson-4",
+            "title": "Preparing files for print",
+            "duration": "18:00",
+            "durationSeconds": 1080,
+            "completed": false,
+            "locked": true
+          }
+        ]
+      },
+      {
+        "id": "product-design",
+        "title": "Product Design",
+        "category": "Design",
+        "level": "Advanced",
+        "duration": "1h 38min",
+        "durationMinutes": 98,
+        "lessonCount": 4,
+        "rating": 4.5,
+        "accent": "#7B1FA2",
+        "icon": "design",
+        "price": {
+          "label": "$39",
+          "amount": 39,
+          "currency": "USD"
+        },
+        "hero": {
+          "label": "PRODUCT DESIGN",
+          "videoCount": 48,
+          "classCount": 20
+        },
+        "description": {
+          "text": "Take a product from research to prototype: user needs, sketching, prototyping and usability testing."
+        },
+        "lessons": [
+          {
+            "id": "product-design-lesson-1",
+            "title": "Understanding user needs",
+            "duration": "19:30",
+            "durationSeconds": 1170,
+            "completed": false,
+            "locked": false
+          },
+          {
+            "id": "product-design-lesson-2",
+            "title": "Sketching and ideation",
+            "duration": "22:15",
+            "durationSeconds": 1335,
+            "completed": false,
+            "locked": false
+          },
+          {
+            "id": "product-design-lesson-3",
+            "title": "Prototyping",
+            "duration": "31:45",
+            "durationSeconds": 1905,
+            "completed": false,
+            "locked": false
+          },
+          {
+            "id": "product-design-lesson-4",
+            "title": "Usability testing",
+            "duration": "24:00",
+            "durationSeconds": 1440,
+            "completed": false,
+            "locked": true
+          }
+        ]
+      },
+      {
+        "id": "ui-ux-basics",
+        "title": "UI/UX Basics",
+        "category": "Design",
+        "level": "Beginner",
+        "duration": "1h 4min",
+        "durationMinutes": 64,
+        "lessonCount": 4,
+        "rating": 4.7,
+        "accent": "#00838F",
+        "icon": "design",
+        "price": {
+          "label": "Free",
+          "amount": 0,
+          "currency": "USD"
+        },
+        "hero": {
+          "label": "UI/UX BASICS",
+          "videoCount": 48,
+          "classCount": 20
+        },
+        "description": {
+          "text": "The essentials of interface and experience design: layout, colour, hierarchy and simple user flows."
+        },
+        "lessons": [
+          {
+            "id": "ui-ux-basics-lesson-1",
+            "title": "What is UX?",
+            "duration": "09:50",
+            "durationSeconds": 590,
+            "completed": false,
+            "locked": false
+          },
+          {
+            "id": "ui-ux-basics-lesson-2",
+            "title": "Layout and hierarchy",
+            "duration": "17:25",
+            "durationSeconds": 1045,
+            "completed": false,
+            "locked": false
+          },
+          {
+            "id": "ui-ux-basics-lesson-3",
+            "title": "Colour and typography",
+            "duration": "16:40",
+            "durationSeconds": 1000,
+            "completed": false,
+            "locked": false
+          },
+          {
+            "id": "ui-ux-basics-lesson-4",
+            "title": "Designing a user flow",
+            "duration": "20:20",
+            "durationSeconds": 1220,
+            "completed": false,
+            "locked": true
+          }
+        ]
+      },
+      {
+        "id": "spoken-english",
+        "title": "Spoken English",
+        "category": "Language",
+        "level": "Beginner",
+        "duration": "50min",
+        "durationMinutes": 50,
+        "lessonCount": 4,
+        "rating": 4.4,
+        "accent": "#5C6BC0",
+        "icon": "language",
+        "price": {
+          "label": "Free",
+          "amount": 0,
+          "currency": "USD"
+        },
+        "hero": {
+          "label": "SPOKEN ENGLISH",
+          "videoCount": 48,
+          "classCount": 20
+        },
+        "description": {
+          "text": "Gain confidence in everyday conversation with practical phrases, pronunciation drills and listening practice."
+        },
+        "lessons": [
+          {
+            "id": "spoken-english-lesson-1",
+            "title": "Greetings and small talk",
+            "duration": "10:15",
+            "durationSeconds": 615,
+            "completed": false,
+            "locked": false
+          },
+          {
+            "id": "spoken-english-lesson-2",
+            "title": "Asking for directions",
+            "duration": "11:40",
+            "durationSeconds": 700,
+            "completed": false,
+            "locked": false
+          },
+          {
+            "id": "spoken-english-lesson-3",
+            "title": "At the restaurant",
+            "duration": "13:05",
+            "durationSeconds": 785,
+            "completed": false,
+            "locked": false
+          },
+          {
+            "id": "spoken-english-lesson-4",
+            "title": "Pronunciation drills",
+            "duration": "15:30",
+            "durationSeconds": 930,
+            "completed": false,
+            "locked": true
+          }
+        ]
+      },
+      {
+        "id": "business-english",
+        "title": "Business English",
+        "category": "Language",
+        "level": "Intermediate",
+        "duration": "1h 10min",
+        "durationMinutes": 70,
+        "lessonCount": 4,
+        "rating": 4.3,
+        "accent": "#3949AB",
+        "icon": "language",
+        "price": {
+          "label": "$15",
+          "amount": 15,
+          "currency": "USD"
+        },
+        "hero": {
+          "label": "BUSINESS ENGLISH",
+          "videoCount": 48,
+          "classCount": 20
+        },
+        "description": {
+          "text": "Write emails, run meetings and present ideas in professional English."
+        },
+        "lessons": [
+          {
+            "id": "business-english-lesson-1",
+            "title": "Professional emails",
+            "duration": "14:00",
+            "durationSeconds": 840,
+            "completed": false,
+            "locked": false
+          },
+          {
+            "id": "business-english-lesson-2",
+            "title": "Meetings and discussions",
+            "duration": "18:20",
+            "durationSeconds": 1100,
+            "completed": false,
+            "locked": false
+          },
+          {
+            "id": "business-english-lesson-3",
+            "title": "Presentations",
+            "duration": "21:10",
+            "durationSeconds": 1270,
+            "completed": false,
+            "locked": false
+          },
+          {
+            "id": "business-english-lesson-4",
+            "title": "Negotiation phrases",
+            "duration": "16:45",
+            "durationSeconds": 1005,
+            "completed": false,
+            "locked": true
+          }
+        ]
+      },
+      {
+        "id": "digital-marketing",
+        "title": "Digital Marketing",
+        "category": "Business",
+        "level": "Beginner",
+        "duration": "1h 17min",
+        "durationMinutes": 77,
+        "lessonCount": 4,
+        "rating": 4.2,
+        "accent": "#D81B60",
+        "icon": "business",
+        "price": {
+          "label": "$25",
+          "amount": 25,
+          "currency": "USD"
+        },
+        "hero": {
+          "label": "DIGITAL MARKETING",
+          "videoCount": 48,
+          "classCount": 20
+        },
+        "description": {
+          "text": "Plan campaigns, understand your audience and measure results across search, social and email."
+        },
+        "lessons": [
+          {
+            "id": "digital-marketing-lesson-1",
+            "title": "Marketing funnel basics",
+            "duration": "15:15",
+            "durationSeconds": 915,
+            "completed": false,
+            "locked": false
+          },
+          {
+            "id": "digital-marketing-lesson-2",
+            "title": "Social media strategy",
+            "duration": "23:30",
+            "durationSeconds": 1410,
+            "completed": false,
+            "locked": false
+          },
+          {
+            "id": "digital-marketing-lesson-3",
+            "title": "Email campaigns",
+            "duration": "17:50",
+            "durationSeconds": 1070,
+            "completed": false,
+            "locked": false
+          },
+          {
+            "id": "digital-marketing-lesson-4",
+            "title": "Analytics and KPIs",
+            "duration": "20:40",
+            "durationSeconds": 1240,
+            "completed": false,
+            "locked": true
+          }
+        ]
+      },
+      {
+        "id": "public-speaking",
+        "title": "Public Speaking",
+        "category": "Business",
+        "level": "Beginner",
+        "duration": "52min",
+        "durationMinutes": 52,
+        "lessonCount": 4,
+        "rating": 4.6,
+        "accent": "#EF6C00",
+        "icon": "business",
+        "price": {
+          "label": "Free",
+          "amount": 0,
+          "currency": "USD"
+        },
+        "hero": {
+          "label": "PUBLIC SPEAKING",
+          "videoCount": 48,
+          "classCount": 20
+        },
+        "description": {
+          "text": "Overcome stage fright and deliver clear, engaging talks with structure, voice and body language."
+        },
+        "lessons": [
+          {
+            "id": "public-speaking-lesson-1",
+            "title": "Structuring your talk",
+            "duration": "13:20",
+            "durationSeconds": 800,
+            "completed": false,
+            "locked": false
+          },
+          {
+            "id": "public-speaking-lesson-2",
+            "title": "Voice and pace",
+            "duration": "12:10",
+            "durationSeconds": 730,
+            "completed": false,
+            "locked": false
+          },
+          {
+            "id": "public-speaking-lesson-3",
+            "title": "Body language",
+            "duration": "14:35",
+            "durationSeconds": 875,
+            "completed": false,
+            "locked": false
+          },
+          {
+            "id": "public-speaking-lesson-4",
+            "title": "Handling questions",
+            "duration": "11:50",
+            "durationSeconds": 710,
+            "completed": false,
+            "locked": true
+          }
+        ]
+      }
+    ]
+  }
+}
